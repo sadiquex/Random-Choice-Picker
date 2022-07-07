@@ -1,0 +1,44 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #108884;
+    font-family: 'Poppins',sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+}
+h3{
+    color: #fff;
+    margin: 2px auto;
+}
+.container{
+    width: 500px;
+}
+#textarea{
+    font-family: inherit;
+    border: 0;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 10px 20px;
+    margin: 10px auto;
+    font-size: 1.2em;        
+}
+.tag{
+    background-color: rgb(231, 151, 4);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin: 20px 15px;
+    display: inline-block;
+    font-weight: bold;    
+}
+.tag.highlight{
+    background-color: rgb(111, 66, 177);
+}
