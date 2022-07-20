@@ -11,7 +11,9 @@ function createTags(input) {
     // the split function separates the words into an array according to what it's given, here with ,
     // trim removes white spaces in words
     // map creates an array with the 'trimmed' words
-    const words = input.split(',').filter(words => words.trim() !== '').map(words => words.trim())
+    const words = input.split(',')
+    .filter(words => words.trim() !== '')
+    .map(words => words.trim())
     // here, we're saying, can't be an empty string, and also we're going to trim any white space
 
     // clear tags in html before adding user input
